@@ -1,0 +1,16 @@
+---
+---
+
+@import "variables";
+@import "mixins";
+
+.border-primary { border: 2px solid $primary; }
+
+.text-primary { color: $primary; }
+
+.panel-primary {
+  border-color: $primary;
+  background-color: $dark;
+
+  .panel-heading { background-color: $primary; }
+}

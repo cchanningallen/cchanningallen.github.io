@@ -1,50 +1,51 @@
 
 # Site settings
 
-url: "https://panossakkos.github.io"
+url: "https://cchanningallen.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
 # and NOT your user repository (https://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-baseurl: /personal-jekyll-theme
+# Currently unused, commenting these for now
+# baseurl: /personal-jekyll-theme
 
-google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
+# google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 
 #############
 # HTML Head #
 #############
 
-author: "John Smith"
+author: "Channing Allen"
 lang: "en"
-title: "{ John Smith }"
-favicon: "/img/favicon.ico"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+title: "Channing Allen"
+favicon: "/img/favicon-angle-double-left.ico"
+description: "Blog and website of Channing Allen."
+keywords: "channing, allen, website, blog"
 
 ################
 # Intro layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/intro-bg.jpg"
-me-img: "/img/jetpacktocat.png"
+# TODO: add favicon
+black-favicon: ""
+background-img: "../img/japan-mountains.jpg"
+me-img: "/img/burn-portrait-1.jpg"
 
 ##############################
 # Dynamic Text on the header #
 ##############################
 
 dynamic-typing: True
-shuffle: True	# Shuffle the lines.
-loop: True
+shuffle: False	# Shuffle the lines.
+loop: False
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
 type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Life starts at the end of your comfort zone."
 
 ########
 # Blog #
@@ -64,12 +65,27 @@ disqus-shortname: "panossakkos"
 ###############
 
 events:
-  - image: "/img/career/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/career/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: ""
+    date: "April 2015 - Today"
+    description: "Full-Stack Web App Developer<br><small>(freelance)</small>"
+  - image: ""
+    date: "October 2014 - March 2015"
+    description: "Engineering Lead, Usability Team<br><small>(CrowdFlower)</small>"
+  - image: ""
+    date: "March 2014 - October 2014"
+    description: "Software Engineer<br><small>(CrowdFlower)</small>"
+  - image: ""
+    date: "August 2013 - February 2014"
+    description: "Enterprise Software Engineer<br><small>(CrowdFlower)</small>"
+  - image: ""
+    date: "March 2013 - July 2013"
+    description: "Technical Analyst<br><small>(CrowdFlower)</small>"
+  - image: ""
+    date: "December 2012 - February 2013"
+    description: "Alchemist<br><small>(CrowdFlower)</small>"
+  - image: ""
+    date: "July 2012 - October 2012"
+    description: "Finance Product Specialist<br><small>(Sageworks)</small>"
 
 # First image of the Career timeline
 career-img: "/img/career/default.png"
@@ -78,23 +94,19 @@ career-img: "/img/career/default.png"
 # Contact layout #
 ##################
 
-email: "your@email.here"
+email: "cchanningallen@gmail.com"
 
 ##################
 # Social Buttons #
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
-  - title: "youtube"
-    url: "https://youtube.com/"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/cchanningallen"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "rss"
-    url: "/feed.xml"
+    url: "https://github.com/cchanningallen"
+  - title: "facebook"
+    url: "https://facebook.com/cchanningallen"
 
 ############
 # 404 page #
@@ -112,7 +124,7 @@ social:
 
 pages_list:
   About: 'about'
-  Blog: 'blog'
+  # Blog: 'blog'
   Career: 'career'
   Contact: 'contact'
 
