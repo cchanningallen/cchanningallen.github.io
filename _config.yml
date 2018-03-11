@@ -1,16 +1,9 @@
-
 # Site settings
 
 url: "https://cchanningallen.github.io"
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-
 # Currently unused, commenting these for now
-# baseurl: /personal-jekyll-theme
-
+#baseurl: /
 # google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 
 #############
@@ -21,7 +14,7 @@ author: "Channing Allen"
 lang: "en"
 title: "Channing Allen"
 favicon: "/img/favicon-angle-double-left.ico"
-description: "Blog and website of Channing Allen."
+description: "Personal site of Channing Allen."
 keywords: "channing, allen, website, blog"
 
 ################
@@ -47,45 +40,26 @@ delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
   - text: "Life starts at the end of your comfort zone."
 
-########
-# Blog #
-########
-
-post-preview-words: 128
-
-paginate: 5
-
-fb-share: True
-twitter-share: True
-reddit-share: True
-disqus-shortname: "panossakkos"
-
 ###############
 # Life Events #
 ###############
 
 events:
+  - image: "/img/career/homebase.png"
+    date: "Feb 2017 - Today"
+    description: "Senior Software Engineer<br><small>Homebase</small>"
   - image: ""
-    date: "April 2015 - Today"
-    description: "Full-Stack Web App Developer<br><small>(freelance)</small>"
-  - image: ""
-    date: "October 2014 - March 2015"
+    date: "Apr 2016 - Jan 2017"
+    description: "Consultant, Front-End Architecture"
+  - image: "/img/career/gradle.png"
+    date: "Nov 2015 - Jun 2016"
+    description: "Lead of Front-End Engineering<br><small>(Gradle)</small>"
+  - image: "/img/career/crowdflower.png"
+    date: "Oct 2014 - Mar 2015"
     description: "Engineering Lead, Usability Team<br><small>(CrowdFlower)</small>"
-  - image: ""
-    date: "March 2014 - October 2014"
+  - image: "/img/career/crowdflower.png"
+    date: "Dec 2012 - Oct 2014"
     description: "Software Engineer<br><small>(CrowdFlower)</small>"
-  - image: ""
-    date: "August 2013 - February 2014"
-    description: "Enterprise Software Engineer<br><small>(CrowdFlower)</small>"
-  - image: ""
-    date: "March 2013 - July 2013"
-    description: "Technical Analyst<br><small>(CrowdFlower)</small>"
-  - image: ""
-    date: "December 2012 - February 2013"
-    description: "Alchemist<br><small>(CrowdFlower)</small>"
-  - image: ""
-    date: "July 2012 - October 2012"
-    description: "Finance Product Specialist<br><small>(Sageworks)</small>"
 
 # First image of the Career timeline
 career-img: "/img/career/default.png"
@@ -116,24 +90,16 @@ social:
 
 ################################################################################
 
-# Tread carefully if you want to change the variables below this point!
-
 # Navigation bar links
-# Blog link in the blog and post pages will point to the blog.html#blog
-# In the default page it will point to the preview of the last post
 
 pages_list:
   About: 'about'
-  # Blog: 'blog'
   Career: 'career'
   Contact: 'contact'
-
-# Pagination path
-paginate_path: "blog/page:num"
 
 # Enable minification SASS
 sass:
   style: compressed
 
 # Exclusion list from the generated _site
-exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"  ]
